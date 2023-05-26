@@ -2,9 +2,9 @@ import styled from 'styled-components'
 
 export const LayoutContainer = styled.div`
   max-width: 74rem;
-  height: calc(100vh - 10rem);
+  height: 100%;
   margin: 5rem auto;
-  padding: 2.5rem;
+  padding: 4rem;
 
   background-color: ${props => props.theme['gray-800']};
 
